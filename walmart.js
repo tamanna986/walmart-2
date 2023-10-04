@@ -24,5 +24,5 @@ function extractBrandInfo() {
   
 
 extractedBrands.map(element => {
-    console.log( 'Title:',element.title , 'Description :', element.description, 'Image :', element.image)
+    console.log( 'Title:',element.title , 'Description :', element.description,)
  })
