@@ -19,8 +19,14 @@ function extractBrandInfo() {
     return brandInfoList;
   }
   
-//   // Calling the function to extract brand information
-//   const extractedBrands = extractBrandInfo();
+  // Calling the function to extract brand information
+  const extractedBrands = extractBrandInfo();
   
 
 //   console.log(extractedBrands);
+//   extractedBrands.map(e => {
+//     console.log( e.title , e.description, e.image)
+//      )}
+extractedBrands.map(element => {
+    console.log( element.title , element.description, element.image)
+ })
